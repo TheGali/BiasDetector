@@ -13,7 +13,7 @@ with open('long_prompt.txt', 'r') as f:
 
 # Initialize OpenAI API
 # Note: Use environment variables for API keys for security reasons.
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = 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
 
 
 def summarize_article_with_openai(url):
