@@ -13,8 +13,7 @@ with open('long_prompt.txt', 'r') as f:
 
 # Initialize OpenAI API
 # Note: Use environment variables for API keys for security reasons.
-openai.api_key = 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
-
+openai.api_key = "You-key-here preferably a secret"
 
 def summarize_article_with_openai(url):
     # Scrape the article
